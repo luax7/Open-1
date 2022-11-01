@@ -2,7 +2,6 @@
     "name": "code-open1",
     "version": "1.0.0",
     "scripts": {
-        "init":"cd ./server/ && npm install",
-        "run" :"node ./server"
+        "start":"cd ./src/server & npm install & node ."
     }
 }
