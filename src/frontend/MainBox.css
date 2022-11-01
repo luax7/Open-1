@@ -1,0 +1,38 @@
+main{
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: rgb(52, 48, 65);
+    display: flex;
+    justify-content: center;
+}
+
+.MainBox {
+    width: 90%;
+    height: calc(100% - 50px);
+    border: 4px solid rgb(36, 32, 48);
+    border-radius: .4rem;
+    align-self: center; 
+    background-color: rgb(42, 38, 54);
+    display: flex;
+}
+
+.Box{
+    width:  12%;
+    height: 30%;
+    margin: 1%;
+    background-color: rgb(31, 27, 41);
+    background-image: none;
+    flex-grow: 3;
+}
+
+#DefaultOpenBox img{
+    width:  150px;
+    height: 150px;
+    margin-left: calc(50% - 50px);
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+#DefaultOpenBox :hover{
+    opacity: .3;
+}
